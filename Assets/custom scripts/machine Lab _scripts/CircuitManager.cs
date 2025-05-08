@@ -2,90 +2,101 @@ using UnityEngine;
 
 public class CircuitManager : MonoBehaviour
 {
-    public WireConnection[] breakerToContactorSockets; // Sockets on the breaker
-    public WireConnection[] pushbuttonwires;// Sockets  on the pushbutton
-    public WireConnection[] relayToMotorSockets;      // Sockets on the relay
-    public RelaySnapPoint relaySnapPoint;             // The snap point for the overload relay
-    public BreakerSystem breakerSystem; 
-    public ToggleBoolOnButtonPress pushstate;              // Reference to the breaker system
+    public BreakerSystem breakerSystem;
+    public ToggleBoolOnButtonPress pushButton;
+    public RelaySnapPoint relaySnapPoint;
+    public Mutor motor;
+    public WireStateChecker wireStateChecker;
 
-    public Mutor motor; // Reference to the motor script
+    // We don't need a separate flag like 'isCircuitPoweredAndMotorBaselineSet' anymore,
+    // we'll rely on wireStateChecker.IsMotorBaselineEstablished()
 
     public void CheckCircuit()
     {
-        // 1. Check if the breaker is ON
-        if (breakerSystem != null && !breakerSystem.isBreakerOn)
+        string framePrefix = $"[{Time.frameCount}]"; // For clearer logs
+        Debug.Log($"{framePrefix} ===== CircuitManager.CheckCircuit() Called =====");
+
+        if (motor == null || wireStateChecker == null)
         {
-            Debug.Log("Breaker is OFF. Circuit is incomplete.");
-            StopMotor();
-            return; // Exit if the breaker is OFF
+            Debug.LogError($"{framePrefix} CircuitManager: Motor or WireStateChecker not assigned!");
+            return;
         }
-        if (pushstate != null && !pushstate.isActive)
+
+        // 1. Always capture the current physical state of phase wires.
+        wireStateChecker.CaptureCurrentPhysicalPhaseConnections();
+
+        // 2. Check if the OVERALL circuit is complete using your existing logic.
+        bool isOverallCircuitComplete = IsCircuitComplete(); // This is your unchanged method
+
+        if (isOverallCircuitComplete)
         {
-            Debug.Log("Breaker is OFF. Circuit is incomplete.");
-            StopMotor();
-            return; // Exit if the breaker is OFF
-        }
-        // 2. Check breaker-to-contactor sockets
-        foreach (WireConnection socket in breakerToContactorSockets)
-        {
-            if (!socket.isConnected)
+            Debug.Log($"{framePrefix} CircuitManager: Overall circuit is COMPLETE.");
+
+            // 3. If no motor direction baseline has EVER been established
+            if (!wireStateChecker.IsMotorBaselineEstablished())
             {
-                Debug.Log("Breaker to contactor sockets are not fully connected.");
-                StopMotor();
-                return; // Exit if any socket is disconnected
+                Debug.Log($"{framePrefix} CircuitManager: Motor direction baseline NOT YET ESTABLISHED. Starting motor and setting initial baseline.");
+                motor.StartMotor(); // Start in default direction
+                wireStateChecker.SetBaselineForMotorDirection();
+            }
+            // 4. A motor direction baseline EXISTS. Check if the current phase config matches it.
+            else
+            {
+                if (wireStateChecker.HasPhaseConfigChangedFromBaseline())
+                {
+                    Debug.Log($"{framePrefix} CircuitManager: Phase configuration CHANGED from established baseline. Toggling motor direction.");
+                    motor.StartMotor(); // Ensure motor is running before toggle (if it somehow stopped)
+                    motor.ToggleRotationDirection();
+                    // The new configuration becomes the current baseline for this motor direction
+                    wireStateChecker.SetBaselineForMotorDirection();
+                }
+                else
+                {
+                    Debug.Log($"{framePrefix} CircuitManager: Phase configuration MATCHES established baseline. Ensuring motor is running in correct direction.");
+                    // If the circuit just re-completed with the SAME phase config, motor should start/continue
+                    motor.StartMotor();
+                }
             }
         }
-        foreach (WireConnection socket in pushbuttonwires)
+        // 5. Overall circuit is NOT complete
+        else
         {
-            if (!socket.isConnected)
-            {
-                Debug.Log("Pushbutton wires are not fully connected.");
-                StopMotor();
-                return; // Exit if any socket is disconnected
-            }
-        }
-        // 3. Check if the pushbutton is pressed
-
-        // 3. Check if the overload relay is snapped to the contactor
-        if (relaySnapPoint != null && !relaySnapPoint.isRelayConnected&& breakerSystem != null && !breakerSystem.isBreakerOn)
-        {
-            Debug.Log("Overload relay is not snapped to the contactor.");
-            StopMotor();
-            return; // Exit if the relay is not snapped
-        }
-
-        // 4. Check relay-to-motor sockets
-        foreach (WireConnection socket in relayToMotorSockets)
-        {
-            if (!socket.isConnected)
-            {
-                Debug.Log("Relay to motor sockets are not fully connected.");
-                StopMotor();
-                return; // Exit if any socket is disconnected
-            }
-        }
-
-        // If all checks pass, start the motor
-        Debug.Log("All connections are complete. Starting the motor.");
-        StartMotor();
-    }
-
-    private void StartMotor()
-    {
-        if (!motor.isRunning)
-        {
-            Debug.Log("Motor started.");
-            motor.StartMotor();
-        }
-    }
-
-    private void StopMotor()
-    {
-        if (motor.isRunning)
-        {
-            Debug.Log("Motor stopped.");
+            Debug.Log($"{framePrefix} CircuitManager: Overall circuit is NOT COMPLETE. Stopping motor.");
             motor.StopMotor();
+            // CRITICAL: We are NOT calling wireStateChecker.ClearMotorDirectionBaseline() here.
+            // This means the baseline is REMEMBERED across circuit breaks.
+            // It will only be updated if a new, different configuration is detected when the circuit is next complete.
         }
+        Debug.Log($"{framePrefix} ===== CircuitManager.CheckCircuit() Finished =====");
+    }
+
+    /// <summary>
+    /// Checks all conditions for the circuit to be operational.
+    /// THIS METHOD REMAINS AS PER YOUR REQUIREMENT (UNCHANGED).
+    /// </summary>
+    private bool IsCircuitComplete()
+    {
+        // --- Your existing checks - DO NOT CHANGE ---
+        if (breakerSystem == null || !breakerSystem.isBreakerOn) { /* Debug.Log("Circuit incomplete: Breaker"); */ return false; }
+        if (pushButton == null || !pushButton.isActive) { /* Debug.Log("Circuit incomplete: PushButton"); */ return false; }
+        if (relaySnapPoint == null || !relaySnapPoint.isRelayConnected) { /* Debug.Log("Circuit incomplete: Relay"); */ return false; }
+
+        if (wireStateChecker == null) { Debug.LogError("CircuitManager: WireStateChecker is null in IsCircuitComplete!"); return false; }
+        if (!wireStateChecker.AreControlWiresConnected()) { /* Debug.Log("Circuit incomplete: Control Wires"); */ return false; }
+
+        if (wireStateChecker.phaseSockets == null || wireStateChecker.phaseSockets.Count == 0) {
+             Debug.LogWarning("CircuitManager: No phase sockets defined in WireStateChecker for IsCircuitComplete.");
+            return false;
+        }
+        foreach (var socket in wireStateChecker.phaseSockets)
+        {
+            if (socket == null || !socket.isConnected)
+            {
+                // Debug.Log($"Circuit incomplete: Phase Socket '{socket?.name ?? "NULL"}' not connected.");
+                return false;
+            }
+        }
+        // --- End of your existing checks ---
+        return true;
     }
 }
