@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro; // Added for TextMeshPro support
 
 public class NeedlePointer : MonoBehaviour
 {
@@ -22,6 +23,13 @@ public class NeedlePointer : MonoBehaviour
     [Header("Smoothing")]
     [Tooltip("Smoothing speed (0 for instant)")]
     public float smoothingSpeed = 5f;
+
+    [Header("Value Display (Optional)")]
+    [Tooltip("TextMeshPro component to display the value")]
+    public TMP_Text valueDisplayText;
+    
+    [Tooltip("Display format (e.g., '0.0', '0.00 Ω')")]
+    public string valueFormat = "0.0";
 
     private Quaternion _minRotation;
     private Quaternion _maxRotation;
@@ -49,6 +57,9 @@ public class NeedlePointer : MonoBehaviour
             Debug.LogError("Max Angle Transform not assigned!");
             _maxRotation = Quaternion.identity;
         }
+
+        // Initialize display if available
+        UpdateValueDisplay();
     }
 
     void Update()
@@ -76,6 +87,7 @@ public class NeedlePointer : MonoBehaviour
     public void SetValue(float value)
     {
         currentValue = Mathf.Clamp(value, minValue, maxValue);
+        UpdateValueDisplay();
     }
 
     public void ConfigureNeedle(float value, float min, float max, Transform minTransform, Transform maxTransform)
@@ -89,6 +101,8 @@ public class NeedlePointer : MonoBehaviour
         // Update cached rotations
         if (minAngleTransform != null) _minRotation = minAngleTransform.rotation;
         if (maxAngleTransform != null) _maxRotation = maxAngleTransform.rotation;
+        
+        UpdateValueDisplay();
     }
 
     // Call this if you change the transform rotations at runtime
@@ -96,5 +110,14 @@ public class NeedlePointer : MonoBehaviour
     {
         if (minAngleTransform != null) _minRotation = minAngleTransform.rotation;
         if (maxAngleTransform != null) _maxRotation = maxAngleTransform.rotation;
+    }
+
+    // Added TextMeshPro display functionality
+    private void UpdateValueDisplay()
+    {
+        if (valueDisplayText != null)
+        {
+            valueDisplayText.text = currentValue.ToString(valueFormat);
+        }
     }
 }
