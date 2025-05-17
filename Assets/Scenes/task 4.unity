@@ -2066,7 +2066,7 @@ GameObject:
   - component: {fileID: 69716216}
   - component: {fileID: 69716215}
   - component: {fileID: 69716214}
-  - component: {fileID: 69716213}
+  - component: {fileID: 69716218}
   m_Layer: 0
   m_Name: AM2_1
   m_TagString: Untagged
@@ -2089,21 +2089,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1403034791}
   m_LocalEulerAnglesHint: {x: 85.395, y: -149.366, z: 29.904}
---- !u!114 &69716213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69716211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &69716214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2237,6 +2222,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69716211}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &69716218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69716211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &71826415
 GameObject:
   m_ObjectHideFlags: 0
@@ -3172,7 +3172,7 @@ GameObject:
   - component: {fileID: 126072431}
   - component: {fileID: 126072430}
   - component: {fileID: 126072429}
-  - component: {fileID: 126072428}
+  - component: {fileID: 126072433}
   m_Layer: 0
   m_Name: AM1_1
   m_TagString: Untagged
@@ -3195,21 +3195,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4411022059291784016}
   m_LocalEulerAnglesHint: {x: 85.395, y: -149.366, z: 29.904}
---- !u!114 &126072428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126072426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &126072429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3343,6 +3328,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 126072426}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &126072433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126072426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1001 &160090339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4798,7 +4798,7 @@ GameObject:
   - component: {fileID: 292049168}
   - component: {fileID: 292049167}
   - component: {fileID: 292049166}
-  - component: {fileID: 292049165}
+  - component: {fileID: 292049170}
   m_Layer: 0
   m_Name: VAR_1
   m_TagString: Untagged
@@ -4821,21 +4821,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2120090836}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
---- !u!114 &292049165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 292049163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &292049166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4969,6 +4954,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292049163}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &292049170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292049163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &295054722
 GameObject:
   m_ObjectHideFlags: 0
@@ -10596,7 +10596,7 @@ GameObject:
   - component: {fileID: 322819071}
   - component: {fileID: 322819070}
   - component: {fileID: 322819069}
-  - component: {fileID: 322819068}
+  - component: {fileID: 322819074}
   m_Layer: 0
   m_Name: B3
   m_TagString: Untagged
@@ -10604,21 +10604,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &322819068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322819067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &322819069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10767,6 +10752,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1475669632}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
+--- !u!114 &322819074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322819067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!4 &335959532 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c1e89bf697b29f44c8fcc376c2951a11,
@@ -11038,7 +11038,7 @@ GameObject:
   - component: {fileID: 369403246}
   - component: {fileID: 369403245}
   - component: {fileID: 369403244}
-  - component: {fileID: 369403243}
+  - component: {fileID: 369403248}
   m_Layer: 0
   m_Name: TPT_P_1
   m_TagString: Untagged
@@ -11061,21 +11061,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1667116500}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
---- !u!114 &369403243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 369403241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &369403244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11209,6 +11194,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369403241}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &369403248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369403241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1001 &370930770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12006,22 +12006,22 @@ PrefabInstance:
     - target: {fileID: 7387125324240799344, guid: efebdf03cb1ccd043827e933755e413e,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7387125324240799344, guid: efebdf03cb1ccd043827e933755e413e,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7387125324240799344, guid: efebdf03cb1ccd043827e933755e413e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 122
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7387125324240799344, guid: efebdf03cb1ccd043827e933755e413e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -30
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12611,12 +12611,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 425061699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
+  circuitManager: {fileID: 0}
 --- !u!1 &437118102
 GameObject:
   m_ObjectHideFlags: 0
@@ -13354,7 +13354,7 @@ PrefabInstance:
     - target: {fileID: 6242851353689079636, guid: f9da24840c60a814295b88e6319d9f9c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 91
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6242851353689079636, guid: f9da24840c60a814295b88e6319d9f9c,
         type: 3}
@@ -13539,7 +13539,7 @@ GameObject:
   - component: {fileID: 497632402}
   - component: {fileID: 497632401}
   - component: {fileID: 497632400}
-  - component: {fileID: 497632399}
+  - component: {fileID: 497632404}
   m_Layer: 0
   m_Name: TPT_S_3
   m_TagString: Untagged
@@ -13562,21 +13562,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2067910096}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
---- !u!114 &497632399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 497632397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &497632400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13710,6 +13695,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497632397}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &497632404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497632397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &498629549
 GameObject:
   m_ObjectHideFlags: 0
@@ -13723,7 +13723,7 @@ GameObject:
   - component: {fileID: 498629554}
   - component: {fileID: 498629553}
   - component: {fileID: 498629552}
-  - component: {fileID: 498629551}
+  - component: {fileID: 498629556}
   m_Layer: 0
   m_Name: WM2_2
   m_TagString: Untagged
@@ -13746,21 +13746,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1305465351249719503}
   m_LocalEulerAnglesHint: {x: 87.802, y: -93.872, z: 86.43}
---- !u!114 &498629551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498629549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &498629552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13894,6 +13879,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498629549}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &498629556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498629549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &498917303
 GameObject:
   m_ObjectHideFlags: 0
@@ -14976,7 +14976,7 @@ GameObject:
   - component: {fileID: 516875692}
   - component: {fileID: 516875691}
   - component: {fileID: 516875690}
-  - component: {fileID: 516875689}
+  - component: {fileID: 516875694}
   m_Layer: 0
   m_Name: TPT_P_2
   m_TagString: Untagged
@@ -14999,21 +14999,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1667116500}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
---- !u!114 &516875689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 516875687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &516875690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15147,6 +15132,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516875687}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &516875694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516875687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!4 &519557326 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3127377416852887305, guid: e367714f162349d48a5cb6f00133e149,
@@ -15419,7 +15419,7 @@ GameObject:
   - component: {fileID: 558009841}
   - component: {fileID: 558009840}
   - component: {fileID: 558009839}
-  - component: {fileID: 558009838}
+  - component: {fileID: 558009843}
   m_Layer: 0
   m_Name: VM1_2
   m_TagString: Untagged
@@ -15442,21 +15442,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6267435238260114931}
   m_LocalEulerAnglesHint: {x: 85.357, y: -151.69, z: 27.933}
---- !u!114 &558009838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558009836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &558009839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15590,6 +15575,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558009836}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &558009843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558009836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &567236640
 GameObject:
   m_ObjectHideFlags: 0
@@ -16663,7 +16663,7 @@ PrefabInstance:
     - target: {fileID: 4058181848799284323, guid: 7c93853e89d1d67488e9d8703cfa4082,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 262.09998
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4058181848799284323, guid: 7c93853e89d1d67488e9d8703cfa4082,
         type: 3}
@@ -16673,7 +16673,7 @@ PrefabInstance:
     - target: {fileID: 4058181848799284323, guid: 7c93853e89d1d67488e9d8703cfa4082,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 147.04999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4058181848799284323, guid: 7c93853e89d1d67488e9d8703cfa4082,
         type: 3}
@@ -16824,14 +16824,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613481519}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.03843378, y: 0.4142178, z: 0.7409656, w: 0.5271779}
+  m_LocalRotation: {x: 0.19782767, y: 0.37307784, z: 0.4498544, w: 0.7869614}
   m_LocalPosition: {x: 0.01, y: 0.886, z: 0.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1569997795308847702}
   m_Father: {fileID: 6267435238260114931}
-  m_LocalEulerAnglesHint: {x: -34.982, y: 37.053, z: 97.082}
+  m_LocalEulerAnglesHint: {x: -1.392, y: 49.943, z: 58.859}
 --- !u!114 &613481521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17249,7 +17249,7 @@ GameObject:
   - component: {fileID: 628522491}
   - component: {fileID: 628522490}
   - component: {fileID: 628522489}
-  - component: {fileID: 628522488}
+  - component: {fileID: 628522493}
   m_Layer: 0
   m_Name: RH2
   m_TagString: Untagged
@@ -17272,21 +17272,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 379588811}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
---- !u!114 &628522488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 628522486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &628522489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17420,6 +17405,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628522486}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &628522493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628522486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &638521782
 GameObject:
   m_ObjectHideFlags: 0
@@ -18971,7 +18971,7 @@ GameObject:
   - component: {fileID: 748380939}
   - component: {fileID: 748380938}
   - component: {fileID: 748380937}
-  - component: {fileID: 748380936}
+  - component: {fileID: 748380941}
   m_Layer: 0
   m_Name: TPT_P_3
   m_TagString: Untagged
@@ -18994,21 +18994,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1667116500}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
---- !u!114 &748380936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 748380934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &748380937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19142,6 +19127,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748380934}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &748380941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748380934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1001 &755204709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20963,12 +20963,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 862160452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
+  circuitManager: {fileID: 0}
 --- !u!1 &901532524
 GameObject:
   m_ObjectHideFlags: 0
@@ -21216,9 +21216,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   phaseSockets:
-  - {fileID: 425061705}
-  - {fileID: 862160459}
-  - {fileID: 322819068}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -21371,7 +21371,7 @@ PrefabInstance:
     - target: {fileID: 8107108474233336363, guid: 49e2fbde9521b4341879174df5a51b64,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 262.09998
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8107108474233336363, guid: 49e2fbde9521b4341879174df5a51b64,
         type: 3}
@@ -21381,7 +21381,7 @@ PrefabInstance:
     - target: {fileID: 8107108474233336363, guid: 49e2fbde9521b4341879174df5a51b64,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 147.04999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8107108474233336363, guid: 49e2fbde9521b4341879174df5a51b64,
         type: 3}
@@ -22473,7 +22473,7 @@ GameObject:
   - component: {fileID: 952194267}
   - component: {fileID: 952194266}
   - component: {fileID: 952194265}
-  - component: {fileID: 952194264}
+  - component: {fileID: 952194269}
   m_Layer: 0
   m_Name: TPT_S_2
   m_TagString: Untagged
@@ -22496,21 +22496,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2067910096}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
---- !u!114 &952194264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952194262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &952194265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22644,6 +22629,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 952194262}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &952194269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952194262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1001 &954011857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23355,7 +23355,7 @@ GameObject:
   - component: {fileID: 997729145}
   - component: {fileID: 997729144}
   - component: {fileID: 997729143}
-  - component: {fileID: 997729142}
+  - component: {fileID: 997729147}
   m_Layer: 0
   m_Name: VAR_3
   m_TagString: Untagged
@@ -23378,21 +23378,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2120090836}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
---- !u!114 &997729142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997729140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &997729143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23526,6 +23511,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997729140}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &997729147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997729140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &999621119
 GameObject:
   m_ObjectHideFlags: 0
@@ -24401,7 +24401,7 @@ PrefabInstance:
     - target: {fileID: 781630663273105846, guid: fcac0c3f142ea3742a0565751dec41de,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 262.09998
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 781630663273105846, guid: fcac0c3f142ea3742a0565751dec41de,
         type: 3}
@@ -24411,7 +24411,7 @@ PrefabInstance:
     - target: {fileID: 781630663273105846, guid: fcac0c3f142ea3742a0565751dec41de,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 147.04999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 781630663273105846, guid: fcac0c3f142ea3742a0565751dec41de,
         type: 3}
@@ -24472,7 +24472,7 @@ GameObject:
   - component: {fileID: 1052388729}
   - component: {fileID: 1052388728}
   - component: {fileID: 1052388727}
-  - component: {fileID: 1052388726}
+  - component: {fileID: 1052388731}
   m_Layer: 0
   m_Name: VM1_1
   m_TagString: Untagged
@@ -24495,21 +24495,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6267435238260114931}
   m_LocalEulerAnglesHint: {x: 85.567, y: -157.916, z: 21.687}
---- !u!114 &1052388726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1052388724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &1052388727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24643,6 +24628,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052388724}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &1052388731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052388724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &1055101545
 GameObject:
   m_ObjectHideFlags: 0
@@ -27751,7 +27751,7 @@ GameObject:
   - component: {fileID: 1184569288}
   - component: {fileID: 1184569287}
   - component: {fileID: 1184569286}
-  - component: {fileID: 1184569285}
+  - component: {fileID: 1184569290}
   m_Layer: 0
   m_Name: RH3
   m_TagString: Untagged
@@ -27774,21 +27774,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 379588811}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
---- !u!114 &1184569285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184569283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &1184569286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27922,6 +27907,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184569283}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &1184569290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184569283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &1188796578
 GameObject:
   m_ObjectHideFlags: 0
@@ -29821,7 +29821,7 @@ GameObject:
   - component: {fileID: 1276611548}
   - component: {fileID: 1276611547}
   - component: {fileID: 1276611546}
-  - component: {fileID: 1276611545}
+  - component: {fileID: 1276611550}
   m_Layer: 0
   m_Name: AM3_1
   m_TagString: Untagged
@@ -29844,21 +29844,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 683144558}
   m_LocalEulerAnglesHint: {x: 85.395, y: -149.366, z: 29.904}
---- !u!114 &1276611545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1276611543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &1276611546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29992,6 +29977,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276611543}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &1276611550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276611543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &1279796817
 GameObject:
   m_ObjectHideFlags: 0
@@ -31589,7 +31589,7 @@ GameObject:
   - component: {fileID: 1357338095}
   - component: {fileID: 1357338094}
   - component: {fileID: 1357338093}
-  - component: {fileID: 1357338092}
+  - component: {fileID: 1357338097}
   m_Layer: 0
   m_Name: VM2_1
   m_TagString: Untagged
@@ -31612,21 +31612,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1259148574}
   m_LocalEulerAnglesHint: {x: 85.567, y: -157.916, z: 21.687}
---- !u!114 &1357338092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1357338090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &1357338093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31760,6 +31745,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357338090}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &1357338097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357338090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1001 &1371610479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34029,7 +34029,7 @@ GameObject:
   - component: {fileID: 1444087620}
   - component: {fileID: 1444087619}
   - component: {fileID: 1444087618}
-  - component: {fileID: 1444087617}
+  - component: {fileID: 1444087622}
   m_Layer: 0
   m_Name: AM3_2
   m_TagString: Untagged
@@ -34052,21 +34052,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 683144558}
   m_LocalEulerAnglesHint: {x: 85.395, y: -149.366, z: 29.904}
---- !u!114 &1444087617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444087615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &1444087618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34200,6 +34185,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444087615}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &1444087622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444087615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &1450146364
 GameObject:
   m_ObjectHideFlags: 0
@@ -34586,7 +34586,7 @@ GameObject:
   - component: {fileID: 1496898552}
   - component: {fileID: 1496898551}
   - component: {fileID: 1496898550}
-  - component: {fileID: 1496898549}
+  - component: {fileID: 1496898554}
   m_Layer: 0
   m_Name: AM1_2
   m_TagString: Untagged
@@ -34609,21 +34609,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4411022059291784016}
   m_LocalEulerAnglesHint: {x: 85.395, y: -149.366, z: 29.904}
---- !u!114 &1496898549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496898547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &1496898550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34757,6 +34742,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496898547}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &1496898554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496898547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &1498935512
 GameObject:
   m_ObjectHideFlags: 0
@@ -35470,7 +35470,7 @@ GameObject:
   - component: {fileID: 1573564699}
   - component: {fileID: 1573564698}
   - component: {fileID: 1573564697}
-  - component: {fileID: 1573564696}
+  - component: {fileID: 1573564701}
   m_Layer: 0
   m_Name: TPT_S_1
   m_TagString: Untagged
@@ -35493,21 +35493,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2067910096}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
---- !u!114 &1573564696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573564694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &1573564697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35641,6 +35626,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573564694}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &1573564701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573564694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &1577112392
 GameObject:
   m_ObjectHideFlags: 0
@@ -35932,7 +35932,7 @@ GameObject:
   - component: {fileID: 1581562708}
   - component: {fileID: 1581562707}
   - component: {fileID: 1581562706}
-  - component: {fileID: 1581562705}
+  - component: {fileID: 1581562710}
   m_Layer: 0
   m_Name: WM3_3
   m_TagString: Untagged
@@ -35955,21 +35955,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1305465351249719503}
   m_LocalEulerAnglesHint: {x: 87.802, y: -93.872, z: 86.43}
---- !u!114 &1581562705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581562703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &1581562706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36103,6 +36088,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581562703}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &1581562710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581562703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1001 &1587922728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36433,7 +36433,7 @@ GameObject:
   - component: {fileID: 1596540120}
   - component: {fileID: 1596540119}
   - component: {fileID: 1596540118}
-  - component: {fileID: 1596540117}
+  - component: {fileID: 1596540122}
   m_Layer: 0
   m_Name: VM2_2
   m_TagString: Untagged
@@ -36456,21 +36456,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1259148574}
   m_LocalEulerAnglesHint: {x: 85.357, y: -151.69, z: 27.933}
---- !u!114 &1596540117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596540115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &1596540118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36604,6 +36589,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596540115}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &1596540122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596540115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &1600320845
 GameObject:
   m_ObjectHideFlags: 0
@@ -39599,7 +39599,7 @@ GameObject:
   - component: {fileID: 1768962944}
   - component: {fileID: 1768962943}
   - component: {fileID: 1768962942}
-  - component: {fileID: 1768962941}
+  - component: {fileID: 1768962946}
   m_Layer: 0
   m_Name: WM1_1
   m_TagString: Untagged
@@ -39622,21 +39622,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1305465351249719503}
   m_LocalEulerAnglesHint: {x: 87.802, y: -93.872, z: 86.43}
---- !u!114 &1768962941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1768962939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &1768962942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39770,6 +39755,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768962939}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &1768962946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768962939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &1775856259
 GameObject:
   m_ObjectHideFlags: 0
@@ -42520,7 +42520,7 @@ GameObject:
   - component: {fileID: 1925625124}
   - component: {fileID: 1925625123}
   - component: {fileID: 1925625122}
-  - component: {fileID: 1925625121}
+  - component: {fileID: 1925625126}
   m_Layer: 0
   m_Name: RH1
   m_TagString: Untagged
@@ -42543,21 +42543,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 379588811}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
---- !u!114 &1925625121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925625119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &1925625122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42691,6 +42676,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925625119}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &1925625126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925625119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &1938008235
 GameObject:
   m_ObjectHideFlags: 0
@@ -42704,7 +42704,7 @@ GameObject:
   - component: {fileID: 1938008240}
   - component: {fileID: 1938008239}
   - component: {fileID: 1938008238}
-  - component: {fileID: 1938008237}
+  - component: {fileID: 1938008242}
   m_Layer: 0
   m_Name: VAR_2
   m_TagString: Untagged
@@ -42727,21 +42727,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2120090836}
   m_LocalEulerAnglesHint: {x: 90, y: 85.424, z: 90.001}
---- !u!114 &1938008237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938008235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &1938008238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42875,6 +42860,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1938008235}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &1938008242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938008235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &1940595893
 GameObject:
   m_ObjectHideFlags: 0
@@ -44519,7 +44519,7 @@ GameObject:
   - component: {fileID: 2050986684}
   - component: {fileID: 2050986683}
   - component: {fileID: 2050986682}
-  - component: {fileID: 2050986681}
+  - component: {fileID: 2050986686}
   m_Layer: 0
   m_Name: AM2_2
   m_TagString: Untagged
@@ -44542,21 +44542,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1403034791}
   m_LocalEulerAnglesHint: {x: 85.395, y: -149.366, z: 29.904}
---- !u!114 &2050986681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2050986679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7865ae1950a004c4d958421bc7d7ee80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isConnected: 0
-  connectedWire: {fileID: 0}
-  circuitManager: {fileID: 907992393}
 --- !u!114 &2050986682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44690,6 +44675,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050986679}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!114 &2050986686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050986679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464a3ee8bc23a9647ad8bce2b64d610f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnected: 0
+  connectedWire: {fileID: 0}
+  circuitManager: {fileID: 0}
 --- !u!1 &2053418313
 GameObject:
   m_ObjectHideFlags: 0
