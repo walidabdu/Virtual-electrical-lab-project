@@ -25,8 +25,8 @@ namespace UnityEngine.XR.Content.Walkthrough
             if (m_ButtonToPress == null)
                 return;
 
-          //  m_ButtonToPress.onClick.RemoveListener(ButtonPressHandler);
-          //  m_ButtonToPress.onClick.AddListener(ButtonPressHandler);
+            m_ButtonToPress.onClick.RemoveListener(ButtonPressHandler);
+            m_ButtonToPress.onClick.AddListener(ButtonPressHandler);
         }
 
         public override bool ResetTrigger()
@@ -35,8 +35,8 @@ namespace UnityEngine.XR.Content.Walkthrough
             if (m_ButtonToPress == null)
                 return false;
 
-          //  m_ButtonToPress.onClick.RemoveListener(ButtonPressHandler);
-           // m_ButtonToPress.onClick.AddListener(ButtonPressHandler);
+            m_ButtonToPress.onClick.RemoveListener(ButtonPressHandler);
+            m_ButtonToPress.onClick.AddListener(ButtonPressHandler);
             return true;
         }
 

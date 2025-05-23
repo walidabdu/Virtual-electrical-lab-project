@@ -12377,12 +12377,12 @@ PrefabInstance:
     - target: {fileID: 7387125324240799344, guid: efebdf03cb1ccd043827e933755e413e,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7387125324240799344, guid: efebdf03cb1ccd043827e933755e413e,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7387125324240799344, guid: efebdf03cb1ccd043827e933755e413e,
         type: 3}
@@ -12392,7 +12392,7 @@ PrefabInstance:
     - target: {fileID: 7387125324240799344, guid: efebdf03cb1ccd043827e933755e413e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14280,7 +14280,7 @@ GameObject:
   - component: {fileID: 498629552}
   - component: {fileID: 498629556}
   m_Layer: 0
-  m_Name: WM2_2
+  m_Name: WM1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21956,7 +21956,7 @@ GameObject:
   - component: {fileID: 838148570}
   - component: {fileID: 838148569}
   m_Layer: 0
-  m_Name: 'WM3_3 '
+  m_Name: 'WM1_3 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27035,7 +27035,7 @@ GameObject:
   - component: {fileID: 1062705910}
   - component: {fileID: 1062705909}
   m_Layer: 0
-  m_Name: 'WM2_2 '
+  m_Name: 'WM1_2 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38887,7 +38887,7 @@ GameObject:
   - component: {fileID: 1581562706}
   - component: {fileID: 1581562710}
   m_Layer: 0
-  m_Name: WM3_3
+  m_Name: WM1_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
