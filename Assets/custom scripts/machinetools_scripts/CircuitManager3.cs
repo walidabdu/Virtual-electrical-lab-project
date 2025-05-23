@@ -62,7 +62,7 @@ public static class CircuitManager3 {
         voltmeter2.Connect("VM2_1", "VM2_2");
         voltmeter3.Connect("VM3_1", "VM3_2");
         wattmeter.Connect("WM_1", "WM_2", "WM_3");
-        rheostat.Connect("RH_1", "RH_2", "RH_3");
+        rheostat.Connect("RH_1", "RH_2", "RH_3", ground);
     }
 
     public static void ConnectWire(string wireName, string nodeName, bool runSimulation = true) {
@@ -254,12 +254,12 @@ public static class CircuitManager3 {
         }
 
         foreach (var wire in wires3) {
-            DisconnectWire(wire.Name, "RH_2", false);
+            DisconnectWire(wire.Name, "RH_3", false);
         }
 
         rheostat = new Rheostat("RH", factor);
         deviceNameToDeviceMap["RH"] = rheostat;
-        rheostat.Connect("RH_1", "RH_2", "RH_3");
+        rheostat.Connect("RH_1", "RH_2", "RH_3", ground);
 
         foreach (var wire in wires1) {
             ConnectWire(wire.Name, "RH_1", false);
@@ -269,7 +269,7 @@ public static class CircuitManager3 {
         }
 
         foreach (var wire in wires3) {
-            ConnectWire(wire.Name, "RH_2", false);
+            ConnectWire(wire.Name, "RH_3", false);
         }
 
 
@@ -298,7 +298,7 @@ public static class CircuitManager3 {
 
         variac = new Variac("VAR", factor);
         deviceNameToDeviceMap["VAR"] = variac;
-        variac.Connect("VAR_1", "VAR_2", "VAR_3");
+        variac.Connect("VAR_1", "VAR_2", "VAR_3", ground);
 
         foreach (var wire in wires1) {
             ConnectWire(wire.Name, "VAR_1", false);

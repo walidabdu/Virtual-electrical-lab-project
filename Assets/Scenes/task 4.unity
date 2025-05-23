@@ -60861,12 +60861,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28b4eace47fbd9c48bd6f9efab7b09d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rheostat_min_value: 0
-  rheostat_max_value: 100
+  variac_min_value: 0
+  variac_max_value: 100
   xrKnob: {fileID: 5642844177464810441}
-  targetNeedles:
-  - {fileID: 1058176886}
-  rheostatDisplayText: {fileID: 1987025610}
+  valueDisplayText: {fileID: 1987025610}
   valueFormat: 0.0
 --- !u!136 &5643978628176016581
 CapsuleCollider:
