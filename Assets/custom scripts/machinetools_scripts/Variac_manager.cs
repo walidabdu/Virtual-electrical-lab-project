@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
 using TMPro;
 using System.Collections.Generic;
 using UnityEngine.XR.Content.Interaction;
@@ -29,7 +28,7 @@ public class Variac_manager : MonoBehaviour
 
         if (xrKnob != null)
         {
-            xrKnob.onValueChange.AddListener(UpdateNeedles);
+            // xrKnob.onValueChange.AddListener(UpdateNeedles);
             _currentRheostatValue = Mathf.Lerp(rheostat_min_value, rheostat_max_value, xrKnob.value);
             UpdateRheostatDisplay();
         }

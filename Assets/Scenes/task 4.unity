@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 410087040}
-  m_IndirectSpecularColor: {r: 0.35544106, g: 0.7304453, b: 0.9658201, a: 1}
+  m_IndirectSpecularColor: {r: 0.35520962, g: 0.73027235, b: 0.966253, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2236,7 +2236,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &71826415
 GameObject:
   m_ObjectHideFlags: 0
@@ -3342,7 +3341,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1001 &160090339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4266,7 +4264,7 @@ GameObject:
   - component: {fileID: 222155074}
   - component: {fileID: 222155073}
   m_Layer: 0
-  m_Name: 'VM2_1 '
+  m_Name: VM2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4301,7 +4299,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &222155074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4625,7 +4622,7 @@ Transform:
   m_GameObject: {fileID: 241043964}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.386, y: -0.202, z: -0.273}
+  m_LocalPosition: {x: -0.708, y: -0.202, z: -0.253}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5152,7 +5149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &295054722
 GameObject:
   m_ObjectHideFlags: 0
@@ -10950,7 +10946,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!4 &335959532 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c1e89bf697b29f44c8fcc376c2951a11,
@@ -11392,7 +11387,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1001 &370930770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11487,7 +11481,7 @@ GameObject:
   - component: {fileID: 371363218}
   - component: {fileID: 371363217}
   m_Layer: 0
-  m_Name: 'RH2 '
+  m_Name: RH_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11522,7 +11516,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &371363218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12987,7 +12980,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &430917952
 GameObject:
   m_ObjectHideFlags: 0
@@ -13003,7 +12995,7 @@ GameObject:
   - component: {fileID: 430917955}
   - component: {fileID: 430917954}
   m_Layer: 0
-  m_Name: VAR_3 (1)
+  m_Name: VAR_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13038,7 +13030,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &430917955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14264,7 +14255,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &498629549
 GameObject:
   m_ObjectHideFlags: 0
@@ -14448,7 +14438,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &498917303
 GameObject:
   m_ObjectHideFlags: 0
@@ -15701,7 +15690,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!4 &519557326 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3127377416852887305, guid: e367714f162349d48a5cb6f00133e149,
@@ -15976,7 +15964,7 @@ GameObject:
   - component: {fileID: 550062578}
   - component: {fileID: 550062577}
   m_Layer: 0
-  m_Name: 'AM1_1 '
+  m_Name: AM1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16011,7 +15999,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &550062578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16328,7 +16315,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &567236640
 GameObject:
   m_ObjectHideFlags: 0
@@ -17231,7 +17217,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &587857316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18174,7 +18159,7 @@ GameObject:
   - component: {fileID: 628522489}
   - component: {fileID: 628522493}
   m_Layer: 0
-  m_Name: RH2
+  m_Name: RH_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18342,7 +18327,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &638521782
 GameObject:
   m_ObjectHideFlags: 0
@@ -19085,8 +19069,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.0000005, y: 1.8453556, z: 2.6899843}
-  m_Center: {x: -0.00000005895579, y: 0.9226777, z: 0.17417759}
+  m_Size: {x: 2.0000005, y: 1.8453556, z: 1.433825}
+  m_Center: {x: -0.00000008981854, y: 0.9226778, z: -0.45390218}
 --- !u!23 &683144556
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19615,7 +19599,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &689767450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19835,7 +19818,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &715035576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20434,7 +20416,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1001 &755204709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21956,7 +21937,7 @@ GameObject:
   - component: {fileID: 838148570}
   - component: {fileID: 838148569}
   m_Layer: 0
-  m_Name: 'WM1_3 '
+  m_Name: WM1_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21991,7 +21972,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &838148570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22311,7 +22291,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &855504807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22629,7 +22608,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &901532524
 GameObject:
   m_ObjectHideFlags: 0
@@ -23944,7 +23922,7 @@ Transform:
   m_GameObject: {fileID: 944474404}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -5.5971622, y: 0.34, z: 15.245}
+  m_LocalPosition: {x: -5.5971622, y: 0.34, z: 14.476}
   m_LocalScale: {x: 57.793087, y: 40.384323, z: 118.43719}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24304,7 +24282,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1001 &954011857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24945,7 +24922,7 @@ GameObject:
   - component: {fileID: 988641814}
   - component: {fileID: 988641813}
   m_Layer: 0
-  m_Name: 'VM1_1 '
+  m_Name: VM1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24980,7 +24957,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &988641814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25370,7 +25346,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &999621119
 GameObject:
   m_ObjectHideFlags: 0
@@ -26487,7 +26462,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &1055101545
 GameObject:
   m_ObjectHideFlags: 0
@@ -27035,7 +27009,7 @@ GameObject:
   - component: {fileID: 1062705910}
   - component: {fileID: 1062705909}
   m_Layer: 0
-  m_Name: 'WM1_2 '
+  m_Name: WM1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27070,7 +27044,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &1062705910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27252,7 +27225,7 @@ GameObject:
   - component: {fileID: 1086933738}
   - component: {fileID: 1086933737}
   m_Layer: 0
-  m_Name: 'WM1_1 '
+  m_Name: WM1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27287,7 +27260,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &1086933738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29396,7 +29368,7 @@ GameObject:
   - component: {fileID: 1148614775}
   - component: {fileID: 1148614774}
   m_Layer: 0
-  m_Name: VAR_2 (1)
+  m_Name: VAR_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29431,7 +29403,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &1148614775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30150,7 +30121,7 @@ GameObject:
   - component: {fileID: 1178258307}
   - component: {fileID: 1178258306}
   m_Layer: 0
-  m_Name: VAR_1 (1)
+  m_Name: VAR_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30185,7 +30156,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &1178258307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30334,7 +30304,7 @@ GameObject:
   - component: {fileID: 1184569286}
   - component: {fileID: 1184569290}
   m_Layer: 0
-  m_Name: RH3
+  m_Name: RH_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30502,7 +30472,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &1188796578
 GameObject:
   m_ObjectHideFlags: 0
@@ -31295,7 +31264,7 @@ GameObject:
   - component: {fileID: 1220775852}
   - component: {fileID: 1220775851}
   m_Layer: 0
-  m_Name: 'RH1 '
+  m_Name: RH_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31330,7 +31299,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &1220775852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32062,7 +32030,6 @@ GameObject:
   - component: {fileID: 1259148573}
   - component: {fileID: 1259148572}
   - component: {fileID: 1259148571}
-  - component: {fileID: 1259148570}
   - component: {fileID: 1259148569}
   - component: {fileID: 1259148568}
   m_Layer: 0
@@ -32251,27 +32218,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &1259148570
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259148567}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.0000005, y: 1.8453559, z: 2.6899843}
-  m_Center: {x: -0.00000005895578, y: 0.9226778, z: 0.17417759}
 --- !u!65 &1259148571
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32291,8 +32237,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.0000005, y: 1.8453559, z: 2.6899843}
-  m_Center: {x: -0.00000005895578, y: 0.9226778, z: 0.17417759}
+  m_Size: {x: 2.0000005, y: 1.7863384, z: 0.55815804}
+  m_Center: {x: -0.00000008324122, y: 0.8931688, z: -0.8917323}
 --- !u!23 &1259148572
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32353,7 +32299,7 @@ Transform:
   m_GameObject: {fileID: 1259148567}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000002616962, y: -0.7206927, z: -0.000000027205386, w: 0.69325465}
-  m_LocalPosition: {x: -4.256, y: 0.842, z: 15.481}
+  m_LocalPosition: {x: -4.225, y: 0.842, z: 15.123}
   m_LocalScale: {x: 0.08355879, y: 0.08355879, z: 0.08355879}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -32758,7 +32704,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &1279796817
 GameObject:
   m_ObjectHideFlags: 0
@@ -33868,7 +33813,7 @@ GameObject:
   - component: {fileID: 1350686688}
   - component: {fileID: 1350686687}
   m_Layer: 0
-  m_Name: 'VM1_2 '
+  m_Name: VM1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33903,7 +33848,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &1350686688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34037,6 +33981,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350686685}
   m_Mesh: {fileID: 8691780276856062721, guid: c1e89bf697b29f44c8fcc376c2951a11, type: 3}
+--- !u!1 &1354616057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1354616059}
+  - component: {fileID: 1354616058}
+  m_Layer: 0
+  m_Name: Circuit Initializer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1354616058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354616057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecafe9e4cb3273a4f951eb7e56d92eab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1354616059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354616057}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.7357645, y: -0.19518726, z: 16.590607}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1356417302
 GameObject:
   m_ObjectHideFlags: 0
@@ -34710,7 +34698,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1001 &1371610479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35439,8 +35426,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.0000005, y: 1.8453556, z: 2.6899843}
-  m_Center: {x: -0.00000005895579, y: 0.9226777, z: 0.17417759}
+  m_Size: {x: 2.0000005, y: 1.8453556, z: 0.97675556}
+  m_Center: {x: -0.00000009081641, y: 0.9226778, z: -0.68243694}
 --- !u!23 &1403034789
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35501,7 +35488,7 @@ Transform:
   m_GameObject: {fileID: 1403034785}
   serializedVersion: 2
   m_LocalRotation: {x: -0.000000027148017, y: -0.69483125, z: 0.000000026229147, w: 0.71917284}
-  m_LocalPosition: {x: -4.257, y: 0.85, z: 15.056}
+  m_LocalPosition: {x: -4.082, y: 0.85, z: 13.053}
   m_LocalScale: {x: 0.081070274, y: 0.081070274, z: 0.081070274}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -37152,7 +37139,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &1450146364
 GameObject:
   m_ObjectHideFlags: 0
@@ -37709,7 +37695,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &1498935512
 GameObject:
   m_ObjectHideFlags: 0
@@ -38593,7 +38578,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &1577112392
 GameObject:
   m_ObjectHideFlags: 0
@@ -39055,7 +39039,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1001 &1587922728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39556,7 +39539,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &1600320845
 GameObject:
   m_ObjectHideFlags: 0
@@ -40257,7 +40239,7 @@ GameObject:
   - component: {fileID: 1639308384}
   - component: {fileID: 1639308383}
   m_Layer: 0
-  m_Name: 'VM2_2 '
+  m_Name: VM2_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40292,7 +40274,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &1639308384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42906,7 +42887,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &1775856259
 GameObject:
   m_ObjectHideFlags: 0
@@ -45659,7 +45639,7 @@ GameObject:
   - component: {fileID: 1925625122}
   - component: {fileID: 1925625126}
   m_Layer: 0
-  m_Name: RH1
+  m_Name: RH_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45827,7 +45807,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &1938008235
 GameObject:
   m_ObjectHideFlags: 0
@@ -46011,7 +45990,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &1940595893
 GameObject:
   m_ObjectHideFlags: 0
@@ -46767,7 +46745,7 @@ GameObject:
   - component: {fileID: 1978998314}
   - component: {fileID: 1978998313}
   m_Layer: 0
-  m_Name: 'RH3 '
+  m_Name: RH_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46802,7 +46780,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &1978998314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47013,16 +46990,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987025608}
-  m_LocalRotation: {x: -0.75187385, y: 0.013310673, z: 0.011667838, w: 0.6590694}
+  m_LocalRotation: {x: -0.013176674, y: 0.7518766, z: -0.6582492, w: 0.034871995}
   m_LocalPosition: {x: 0, y: 0, z: 0.00523}
   m_LocalScale: {x: -0.0009245651, y: -0.0007354161, z: -0.0007354161}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4407075523282535559}
-  m_LocalEulerAnglesHint: {x: -97.526, y: 0, z: 2.0279999}
+  m_LocalEulerAnglesHint: {x: -261.465, y: -28.048004, z: 153.715}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00353, y: 0.00543}
+  m_AnchoredPosition: {x: -0.0008, y: -0.0015}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1987025610
@@ -48010,7 +47987,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!1 &2053418313
 GameObject:
   m_ObjectHideFlags: 0
@@ -49324,7 +49300,7 @@ GameObject:
   - component: {fileID: 2123656886}
   - component: {fileID: 2123656885}
   m_Layer: 0
-  m_Name: 'AM1_2 '
+  m_Name: AM1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49359,7 +49335,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConnected: 0
   connectedWire: {fileID: 0}
-  circuitManager: {fileID: 0}
 --- !u!114 &2123656886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51235,6 +51210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5fc6632ed707ab4698ecc7d2baf862f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snapTurn: {fileID: 0}
+  continuousTurn: {fileID: 0}
 --- !u!33 &830276583675344983
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -52417,7 +52394,7 @@ Transform:
   m_GameObject: {fileID: 1825683521400842869}
   serializedVersion: 2
   m_LocalRotation: {x: -0.000000026396194, y: -0.7148709, z: 0.000000026985626, w: 0.6992565}
-  m_LocalPosition: {x: -4.605, y: 0.853, z: 14.464}
+  m_LocalPosition: {x: -4.59, y: 0.853, z: 14.802}
   m_LocalScale: {x: 0.085093945, y: 0.085093945, z: 0.085093945}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -53834,7 +53811,7 @@ Transform:
   m_GameObject: {fileID: 3182448670542340105}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000020861626, y: 0.70439374, z: 0.7098095, w: -0.00000011920929}
-  m_LocalPosition: {x: 0.028000057, y: 0.0053299917, z: 0.016150001}
+  m_LocalPosition: {x: 0.028, y: 0.0053, z: 0.016}
   m_LocalScale: {x: 0.024396805, y: 0.014989259, z: 0.015131742}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53978,8 +53955,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.000001, y: 1.8453556, z: 2.689985}
-  m_Center: {x: -0.000000059604666, y: 0.9226777, z: 0.17417763}
+  m_Size: {x: 2.000001, y: 1.3882083, z: 1.1798155}
+  m_Center: {x: -0.00000008769309, y: 1.0950502, z: -0.5809077}
 --- !u!114 &2716279999922372460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58076,7 +58053,7 @@ Transform:
   m_GameObject: {fileID: 3918909555276471869}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -5.5971622, y: 0.34, z: 12.883727}
+  m_LocalPosition: {x: -4.876, y: 0.34, z: 16.351}
   m_LocalScale: {x: 57.793087, y: 40.384323, z: 118.43719}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -58101,7 +58078,7 @@ Transform:
   m_GameObject: {fileID: 3926234654105922026}
   serializedVersion: 2
   m_LocalRotation: {x: -0.000000027148017, y: -0.69483125, z: 0.000000026229147, w: 0.71917284}
-  m_LocalPosition: {x: -4.425, y: 0.85, z: 14.775}
+  m_LocalPosition: {x: -4.629, y: 0.85, z: 14.45}
   m_LocalScale: {x: 0.081070274, y: 0.081070274, z: 0.081070274}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -58317,8 +58294,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.0000005, y: 1.8453556, z: 2.6899843}
-  m_Center: {x: -0.00000005895579, y: 0.9226777, z: 0.17417759}
+  m_Size: {x: 2.0000005, y: 1.8453556, z: 0.5240296}
+  m_Center: {x: -0.000000091524704, y: 0.9226778, z: -0.90880084}
 --- !u!224 &4444634445958397856
 RectTransform:
   m_ObjectHideFlags: 0
@@ -61914,7 +61891,7 @@ Transform:
   m_GameObject: {fileID: 6751379111416094537}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000002616962, y: -0.7206927, z: -0.000000027205386, w: 0.69325465}
-  m_LocalPosition: {x: -4.601, y: 0.842, z: 15.175}
+  m_LocalPosition: {x: -4.635, y: 0.842, z: 13.207}
   m_LocalScale: {x: 0.08355879, y: 0.08355879, z: 0.08355879}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -62795,7 +62772,6 @@ GameObject:
   - component: {fileID: 7013719466639723094}
   - component: {fileID: 5093936183019142812}
   - component: {fileID: 7013719466639723098}
-  - component: {fileID: 7013719466639723097}
   - component: {fileID: 7013719466639723096}
   - component: {fileID: 7013719466639723095}
   m_Layer: 0
@@ -63505,27 +63481,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &7013719466639723097
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6751379111416094537}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.0000005, y: 1.8453559, z: 2.6899843}
-  m_Center: {x: -0.00000005895578, y: 0.9226778, z: 0.17417759}
 --- !u!65 &7013719466639723098
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63545,8 +63500,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.0000005, y: 1.8453559, z: 2.6899843}
-  m_Center: {x: -0.00000005895578, y: 0.9226778, z: 0.17417759}
+  m_Size: {x: 2.0000005, y: 1.8453561, z: 1.2050008}
+  m_Center: {x: -0.000000088380304, y: 0.92267776, z: -0.5683118}
 --- !u!23 &7058654947000404048
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -67876,3 +67831,4 @@ SceneRoots:
   - {fileID: 683144558}
   - {fileID: 1305465351249719503}
   - {fileID: 457128214}
+  - {fileID: 1354616059}
