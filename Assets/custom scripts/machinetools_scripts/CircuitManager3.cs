@@ -254,7 +254,7 @@ public static class CircuitManager3 {
         }
 
         foreach (var wire in wires3) {
-            DisconnectWire(wire.Name, "RH_2", false);
+            DisconnectWire(wire.Name, "RH_3", false);
         }
 
         rheostat = new Rheostat("RH", factor);
@@ -269,7 +269,7 @@ public static class CircuitManager3 {
         }
 
         foreach (var wire in wires3) {
-            ConnectWire(wire.Name, "RH_2", false);
+            ConnectWire(wire.Name, "RH_3", false);
         }
 
 
