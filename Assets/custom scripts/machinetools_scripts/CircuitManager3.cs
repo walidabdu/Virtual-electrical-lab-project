@@ -61,7 +61,7 @@ public static class CircuitManager3 {
         voltmeter1.Connect("VM1_1", "VM1_2");
         voltmeter2.Connect("VM2_1", "VM2_2");
         voltmeter3.Connect("VM3_1", "VM3_2");
-        wattmeter.Connect("WM_1", "WM_2", "WM_3");
+        wattmeter.Connect("WM1_1", "WM1_2", "WM1_3");
         rheostat.Connect("RH_1", "RH_2", "RH_3", ground);
     }
 
