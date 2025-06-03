@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 410087040}
   m_IndirectSpecularColor: {r: 0.35544106, g: 0.7304453, b: 0.9658201, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -97,8 +97,9 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: cd4af3e5d7a994a4199501918ea5278a,
+  m_LightingDataAsset: {fileID: 112000000, guid: 1083893c9e0faf74297b419cfd5c8cac,
+    type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 0e6bbeebde4616d41bba591ae701ed97,
     type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -307,7 +308,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!114 &2306725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2346,7 +2346,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!1 &108303441
 GameObject:
   m_ObjectHideFlags: 0
@@ -3474,7 +3473,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!1001 &220585610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9533,7 +9531,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!1001 &304033320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9805,7 +9802,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!4 &335959532 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c1e89bf697b29f44c8fcc376c2951a11,
@@ -10421,7 +10417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!114 &390135096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11014,7 +11009,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!1 &408905524
 GameObject:
   m_ObjectHideFlags: 0
@@ -12063,7 +12057,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!1 &507235133
 GameObject:
   m_ObjectHideFlags: 0
@@ -13911,7 +13904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!1 &638521782
 GameObject:
   m_ObjectHideFlags: 0
@@ -16556,7 +16548,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!114 &862160455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18973,7 +18964,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!1 &1055101545
 GameObject:
   m_ObjectHideFlags: 0
@@ -29742,7 +29732,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!1001 &1832961766
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31688,7 +31677,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c5019dde366245827adcc3603b9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuitManager: {fileID: 907992393}
 --- !u!1001 &2093842724
 PrefabInstance:
   m_ObjectHideFlags: 0
