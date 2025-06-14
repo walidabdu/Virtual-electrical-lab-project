@@ -13,15 +13,15 @@ public class MotorControlButton : MonoBehaviour
     public AudioClip stopSound;
     private bool canPlayStartSound = true;
 
-    private XRSimpleInteractable xrInteractable;
+    //private XRSimpleInteractable xrInteractable;
 
     void Awake()
     {
-        xrInteractable = GetComponent<XRSimpleInteractable>();
-        xrInteractable.selectEntered.AddListener(HandleButtonPress);
+       // xrInteractable = GetComponent<XRSimpleInteractable>();
+        //xrInteractable.selectEntered.AddListener(HandleButtonPress);
     }
 
-    private void HandleButtonPress(SelectEnterEventArgs args)
+    public void HandleButtonPress()
     {
         if (!circuitManager2.IsCircuitComplete())
         {
