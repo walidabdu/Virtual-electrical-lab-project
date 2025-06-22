@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 410087040}
-  m_IndirectSpecularColor: {r: 0.35635284, g: 0.73247224, b: 0.97143984, a: 1}
+  m_IndirectSpecularColor: {r: 0.35704976, g: 0.7301917, b: 0.96085984, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12202,7 +12202,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1577112395}
-  - {fileID: 1344490716}
   - {fileID: 1925625120}
   - {fileID: 1220775850}
   - {fileID: 628522487}
@@ -33940,7 +33939,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 379588811}
+    m_TransformParent: {fileID: 1577112395}
     m_Modifications:
     - target: {fileID: 954591851760057252, guid: 04052c76cd8138f47bfc66ae8d456707,
         type: 3}
@@ -33955,52 +33954,52 @@ PrefabInstance:
     - target: {fileID: 3344241857523076466, guid: 04052c76cd8138f47bfc66ae8d456707,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0135560045
+      value: -18.370096
       objectReference: {fileID: 0}
     - target: {fileID: 3344241857523076466, guid: 04052c76cd8138f47bfc66ae8d456707,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.004622283
+      value: -6.283269
       objectReference: {fileID: 0}
     - target: {fileID: 3344241857523076466, guid: 04052c76cd8138f47bfc66ae8d456707,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.009472588
+      value: -10.2760725
       objectReference: {fileID: 0}
     - target: {fileID: 3344241857523076466, guid: 04052c76cd8138f47bfc66ae8d456707,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.00019999855
+      value: -3.6045432
       objectReference: {fileID: 0}
     - target: {fileID: 3344241857523076466, guid: 04052c76cd8138f47bfc66ae8d456707,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0005000003
+      value: -3.21096
       objectReference: {fileID: 0}
     - target: {fileID: 3344241857523076466, guid: 04052c76cd8138f47bfc66ae8d456707,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0026174223
+      value: 9.9032345
       objectReference: {fileID: 0}
     - target: {fileID: 3344241857523076466, guid: 04052c76cd8138f47bfc66ae8d456707,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.49999994
+      value: -0.03739587
       objectReference: {fileID: 0}
     - target: {fileID: 3344241857523076466, guid: 04052c76cd8138f47bfc66ae8d456707,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.49999994
+      value: 0.7458829
       objectReference: {fileID: 0}
     - target: {fileID: 3344241857523076466, guid: 04052c76cd8138f47bfc66ae8d456707,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.5
+      value: -0.056743715
       objectReference: {fileID: 0}
     - target: {fileID: 3344241857523076466, guid: 04052c76cd8138f47bfc66ae8d456707,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.5000001
+      value: 0.6626013
       objectReference: {fileID: 0}
     - target: {fileID: 3344241857523076466, guid: 04052c76cd8138f47bfc66ae8d456707,
         type: 3}
@@ -38991,7 +38990,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0.00412}
   m_LocalScale: {x: -0.0009245652, y: -0.00073541614, z: -0.000735416}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1344490716}
   m_Father: {fileID: 379588811}
   m_LocalEulerAnglesHint: {x: -280.198, y: -222.285, z: -40.711}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -47512,7 +47512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rheostat_min_value: 0
-  rheostat_max_value: 100
+  rheostat_max_value: 2
   xrKnob: {fileID: 1983259674}
   valueDisplayText: {fileID: 1577112393}
   valueFormat: 0.00
@@ -61518,10 +61518,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   variac_min_value: 0
-  variac_max_value: 100
+  variac_max_value: 2
   xrKnob: {fileID: 5642844177464810441}
   valueDisplayText: {fileID: 1987025610}
-  valueFormat: 0.0
+  valueFormat: 0.00
 --- !u!136 &5643978628176016581
 CapsuleCollider:
   m_ObjectHideFlags: 0
